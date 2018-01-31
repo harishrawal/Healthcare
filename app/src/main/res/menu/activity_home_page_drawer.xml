@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_join_ola"
+            android:title="Join CabBook Select" />
+        <item
+            android:id="@+id/nav_ola_share"
+            android:title="CabBook Share Pass" />
+        <item
+            android:id="@+id/nav_book_ride"
+            android:title="Book Your Ride" />
+        <item
+            android:id="@+id/nav_your_rides"
+            android:title="Your Rides" />
+        <item
+            android:id="@+id/nav_rate_card"
+            android:title="Rate Card" />
+        <item
+            android:id="@+id/nav_ola_money"
+            android:title="CabBook Money" />
+        <item
+            android:id="@+id/nav_payments"
+            android:title="Payments" />
+        <item
+            android:id="@+id/nav_offer_rides"
+            android:title="Offers &amp; Free Rides" />
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_emergency_contact"
+                android:title="Emergency Contacts" />
+            <item
+                android:id="@+id/nav_support"
+                android:title="Support" />
+        </menu>
+    </item>
+
+</menu>

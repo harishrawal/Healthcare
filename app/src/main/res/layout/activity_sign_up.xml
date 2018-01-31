@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingTop="40dp"
+    tools:context=".ui_activities.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Welcome To Health Care Partner"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="2">
+
+                        <com.healthcare.a2040.healthcarepartner.custom_fonts.Edit_text_regular
+                            android:id="@+id/idNameR1"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:hint="First Name"
+                            android:inputType="textCapWords"
+                            android:maxLines="1"
+                            android:textSize="14dp" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="2">
+
+                        <com.healthcare.a2040.healthcarepartner.custom_fonts.Edit_text_regular
+                            android:id="@+id/idNameR2"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:hint="Last Name"
+                            android:inputType="textCapWords"
+                            android:maxLines="1"
+                            android:textSize="14dp" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <com.healthcare.a2040.healthcarepartner.custom_fonts.Edit_text_regular
+                        android:id="@+id/idMobileR"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Mobile"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textSize="14dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <com.healthcare.a2040.healthcarepartner.custom_fonts.Edit_text_regular
+                        android:id="@+id/idemailR"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textSize="14dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/qualificationBS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:hint="Qualifications"
+                    android:textSize="14sp" />
+
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/specilizationBS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Specilization"
+                    android:textSize="14sp" />
+
+                <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                    android:id="@+id/cityBS"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="City"
+                    android:textSize="14sp" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp">
+
+                    <com.healthcare.a2040.healthcarepartner.custom_fonts.Edit_text_regular
+                        android:id="@+id/idIMA_registrationR"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="IMA registration no"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textSize="14dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp">
+
+                    <com.healthcare.a2040.healthcarepartner.custom_fonts.Edit_text_regular
+                        android:id="@+id/idRegistration_CouncilR"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Registration Council"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textSize="14dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <com.healthcare.a2040.healthcarepartner.custom_fonts.Edit_text_light
+                        android:id="@+id/idPassingYearR"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Year of Passing"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textSize="14dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/button_back"
+                    android:text="Next "
+                    android:textColor="@color/white"
+                    android:textSize="16dp"
+                    android:visibility="gone" />
+
+                <com.healthcare.a2040.healthcarepartner.custom_fonts.Text_view_regular
+                    android:id="@+id/tv_Login_here"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Login"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+</LinearLayout>

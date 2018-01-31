@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_view"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.healthcare.a2040.healthcarepartner.ui_activities.RequestConfirmationStatus">
+
+    <com.healthcare.a2040.healthcarepartner.custom_fonts.Text_view_Bold
+        android:id="@+id/textConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="We'r submitting your details for verification process. we'll get back soon"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/heathcare" />
+
+
+    <com.healthcare.a2040.healthcarepartner.custom_fonts.Text_view_Bold
+        android:id="@+id/textConfirmationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Re-Check"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+</LinearLayout>

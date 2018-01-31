@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#278b4d</color>
+    <color name="colorPrimaryDark">#1f7941</color>
+    <color name="colorAccent">#d4d401</color>
+
+    <color name="bg_glass">#b7263238</color>
+    <color name="buttonColor">#2c3a41</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="greyd">#ccc</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#f1f0f0</color>
+    <color name="black">#000000</color>
+    <color name="button_color">#99c718</color>
+    <color name="light_blue">#1867c7</color>
+    <color name="res">#ec1e13</color>
+    <color name="ms_disabling_button_text_color_selector">#cccccc</color>
+    <color name="ms_Enablingabling_button_text_color_selector">#ffffff</color>
+    <color name="ms_doneabling_button_text_color_selector">#fff</color>
+
+
+</resources>
